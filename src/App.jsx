@@ -22,7 +22,7 @@ function App() {
         <div>
           <h1 className="py-4 text-5xl font-bold text-center">TABLE</h1>
         </div>
-        <div className="flex py-10 justify-evenly bg-slate-200 grow">
+        <div className="flex flex-col py-10 justify-evenly bg-slate-200 sm:flex-row">
           <Table key={key1}></Table>
           <Table key={key2}></Table>
         </div>
